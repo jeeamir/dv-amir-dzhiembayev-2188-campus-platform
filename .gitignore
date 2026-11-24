@@ -18,3 +18,19 @@ data/
 # keys
 *.pem
 *.key
+
+# IDE
+.idea/
+.vscode/
+
+# Terraform logs
+crash.log
+crash.*.log
+
+# AWS credentials CSV
+*accessKeys.csv
+*credentials*.csv
+
+# kubeconfig (доступ к кластеру)
+kubeconfig*
+*.kubeconfig
